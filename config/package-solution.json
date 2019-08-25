@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "accordion-web-part-client-side-solution",
+    "id": "63e34633-f55c-4a3d-a9f6-04a447cee9ae",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/accordion-web-part.sppkg"
+  }
+}
