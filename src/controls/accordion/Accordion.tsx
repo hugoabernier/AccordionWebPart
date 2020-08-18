@@ -16,7 +16,7 @@ export class Accordion extends React.Component<IAccordionProps, IAccordionState>
     super(props);
 
     this.state = {
-      expanded: props.defaultCollapsed ? !props.defaultCollapsed : false
+      expanded: props.defaultCollapsed == null ? false : !props.defaultCollapsed
     };
   }
 
